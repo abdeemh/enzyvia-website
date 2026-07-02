@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enzyvia - Advanced Enzymatic Technology</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ========================================== -->
+    <!-- 🏢 HEADER - STICKY NAVIGATION             -->
+    <!-- ========================================== -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">🧬</span>
+                <span class="logo-text">Enzyvia</span>
+                <span class="logo-tag">™</span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#product">Product</a></li>
+                    <li><a href="#technology">Technology</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========================================== -->
+    <!-- 🏠 HERO - FULL SCREEN PHARMA STYLE        -->
+    <!-- ========================================== -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-badge">🇫🇷 Biotechnologie de Pointe</span>
+                <h1>
+                    Film Enzymatique Intelligent<br>
+                    <span class="highlight">Anti-Odeur Cadavérique &amp; Gangréneux</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Là où la science élimine l'invisible
+                </p>
+                <div class="hero-buttons">
+                    <a href="#product" class="btn btn-primary">Découvrir le produit</a>
+                    <a href="#contact" class="btn btn-secondary">Contact commercial</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Neutralisation ciblée</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">18x19</span>
+                        <span class="stat-label">Format (cm)</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">Sans</span>
+                        <span class="stat-label">Produits chimiques</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- 🔬 PRODUCT SECTION - WITH YOUR IMAGE!     -->
+    <!-- ========================================== -->
+    <section id="product" class="product">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Le Produit</span>
+                <h2>Innovation Enzymatique pour Professionnels</h2>
+                <p>Conçu pour les environnements critiques où l'hygiène et l'efficacité sont primordiales</p>
+            </div>
+
+            <div class="product-showcase">
+                <div class="product-image">
+                    <!-- 🔥 YOUR IMAGE - CHANGE THE FILE NAME HERE IF NEEDED 🔥 -->
+                    <img src="images/enzyvia-product.jpg" alt="Enzyvia - Film Enzymatique Intelligent" class="product-img" id="productImage">
+                    <!-- 
+                        If your image is .jpeg, change to: images/enzyvia-product.jpeg
+                        If your image is .png, change to: images/enzyvia-product.png
+                    -->
+                </div>
+                <div class="product-info">
+                    <div class="product-badge">🆕 Nouveau</div>
+                    <h3>Film Enzymatique Intelligent</h3>
+                    <p class="product-desc">
+                        Une technologie enzymatique de pointe qui neutralise les odeurs nauséabondes 
+                        dans les scènes de crime et les environnements hospitaliers.
+                    </p>
+                    <ul class="product-features">
+                        <li>✔️ <strong>Neutralisation ciblée</strong> des molécules malodorantes</li>
+                        <li>✔️ <strong>Indicateur de changement de couleur</strong> pour un remplacement optimal</li>
+                        <li>✔️ <strong>Sans produits chimiques agressifs</strong> — 100% enzymatique</li>
+                        <li>✔️ <strong>Biotechnologie brevetée</strong> — efficacité prouvée</li>
+                    </ul>
+                    <div class="product-specs">
+                        <div class="spec">
+                            <span class="spec-label">Format</span>
+                            <span class="spec-value">18cm x 19cm</span>
+                        </div>
+                        <div class="spec">
+                            <span class="spec-label">Type</span>
+                            <span class="spec-value">Enzymatique intelligent</span>
+                        </div>
+                        <div class="spec">
+                            <span class="spec-label">Indicateur</span>
+                            <span class="spec-value">Changement de couleur</span>
+                        </div>
+                    </div>
+                    <div class="product-cta">
+                        <a href="#contact" class="btn btn-primary">Demander un devis</a>
+                        <a href="#" class="btn btn-outline">Télécharger la fiche technique</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- 🧪 TECHNOLOGY SECTION - GREEN/BLUE CARDS  -->
+    <!-- ========================================== -->
+    <section id="technology" class="technology">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Technologie</span>
+                <h2>La science derrière Enzyvia</h2>
+                <p>Une approche biotechnologique révolutionnaire</p>
+            </div>
+
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-icon">🧪</div>
+                    <h3>Neutralisation Enzymatique</h3>
+                    <p>Nos enzymes décomposent les composés organiques à la source, éliminant les odeurs de façon définitive.</p>
+                    <a href="#" class="tech-link">En savoir plus →</a>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">🎨</div>
+                    <h3>Indicateur Intelligent</h3>
+                    <p>Le pansement change de couleur lorsque l'efficacité diminue, garantissant une protection continue.</p>
+                    <a href="#" class="tech-link">En savoir plus →</a>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">🌱</div>
+                    <h3>Éco-responsable</h3>
+                    <p>100% biodégradable et sans produits chimiques agressifs. Respectueux de l'environnement.</p>
+                    <a href="#" class="tech-link">En savoir plus →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- 🔐 TRUST BADGES - MEDICAL CREDIBILITY     -->
+    <!-- ========================================== -->
+    <section class="trust">
+        <div class="container">
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <span class="trust-icon">🔬</span>
+                    <h4>Biotech avancée</h4>
+                    <p>Formule brevetée en laboratoire</p>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-icon">🏥</span>
+                    <h4>Usage hospitalier</h4>
+                    <p>Testé en milieu médical</p>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-icon">✅</span>
+                    <h4>Normes de sécurité</h4>
+                    <p>Certifié sans risques</p>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-icon">🌍</span>
+                    <h4>Made in Algérie</h4>
+                    <p>Fabrication locale</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- 📞 CONTACT SECTION - ADDRESS + FORM       -->
+    <!-- ========================================== -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contact</span>
+                <h2>Parlons de votre projet</h2>
+                <p>Nous sommes à votre écoute pour toute demande professionnelle</p>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>📍 Notre siège</h3>
+                    <p><strong>Boite Postale (B.P.) 1042</strong></p>
+                    <p>Saïm Mohamed, Cité Émir Abdelkader</p>
+                    <p>31000 (X-INESSMO), Oran – Algérie</p>
+                    <br>
+                    <div class="contact-detail">
+                        <span>📧</span>
+                        <a href="mailto:enzyvia2025@gmail.com">enzyvia2025@gmail.com</a>
+                    </div>
+                    <div class="contact-detail">
+                        <span>📞</span>
+                        <span>+213 (0) 55 12 34 56</span>
+                    </div>
+                    <div class="contact-detail">
+                        <span>🕐</span>
+                        <span>Lun - Ven : 8h00 – 17h00</span>
+                    </div>
+                    <div class="map-placeholder">
+                        <span>🗺️</span>
+                        <p>Oran, Algérie</p>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <h3>Envoyez-nous un message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Nom complet / Société" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email professionnel" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Objet (ex: Commande, Partenariat, Info)" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Détails de votre demande..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Envoyer la demande</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- 🦶 FOOTER - PROFESSIONAL                  -->
+    <!-- ========================================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="logo-icon">🧬</span>
+                    <span class="logo-text">Enzyvia</span>
+                    <p>Là où la science élimine l'invisible</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <a href="#home">Accueil</a>
+                    <a href="#product">Produit</a>
+                    <a href="#technology">Technologie</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>📧 enzyvia2025@gmail.com</p>
+                    <p>📍 Oran, Algérie</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Enzyvia — Tous droits réservés. | Biotechnologie intelligente</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
